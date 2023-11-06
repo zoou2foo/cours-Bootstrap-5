@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="bg-light"> <!--adding bg-light utilities class-->
+			<nav class="navbar navbar-expand class="bg-light"> <!--adding bg-light utilities class-->
 				<div class="container">
 					<div class="bg-secondary py-4 w-100"></div> <!--py4 and w-100: take care of padding and height. p: padding. y: axis y(height). w: width -->
 				</div>
@@ -39,8 +39,8 @@
 			</section>
 			<section class="py-5 bg-light"> <!--EXPERTISE-->
 				<div class="container"> 
-					<h2>Mon expertise</h2>
-					<h3>Développement web et design</h3>
+					<h2 class="mb-0">Mon expertise</h2> <!--mb-0 to remove margin bottom-->
+					<h3 class="fw-light fs-5">Développement web et design</h3> <!--fs: font-size-->
 					<div class="row gy-4 mt-5"> <!--mt-5 to divide de space-->
 						<div class="col-12 col-md-7"> <!--col-7 to divide the space used for colomn-->
 							<div class="bg-secondary h-100 w-100 py-5"></div> <!--colomn already split so it can occupy the entire space-->
@@ -61,8 +61,8 @@
 			</section>
 			<section class="py-5 bg-light">  <!--PORTFOLIO-->
 				<div class="container">
-					<h2>Mon portfolio</h2>
-					<h3>Projets perso et pro</h3>
+					<h2 class="mb-0">Mon portfolio</h2>
+					<h3 class="fw-light fs-5">Projets perso et pro</h3>
 					<div class="row gy-4 mt-4">
 						<div class="col-3">
 							<div class="bg-secondary h-100 w-100 py-5"></div>
@@ -81,8 +81,8 @@
 			</section>
 			<section class="py-5 bg-light"> <!--PROJET? FORM-->
 				<div class="container"> 
-				<h2>Un projet de création web?</h2>
-				<h3>Allons en discuter autour d'un café</h3>
+				<h2 class="mb-0">Un projet de création web?</h2>
+				<h3 class="fw-light fs-5">Allons en discuter autour d'un café</h3>
 					<div class="row gy-4 mt-5">
 						<div class="col-12 col-md-5">
 							<img src="img/grab-a-coffee.jpg" alt="Photo deux tasses de café" class="w-100">	
@@ -104,10 +104,10 @@
 						<div class="bg-secondary py-5"></div>
 					</div>
 					<div class="col-12 col-md-4 text-md-end">
-						<ul class="list-inline">
+						<ul class="list-inline mb-0">
 							<li class="list-inline-item"><i class="bi bi-linkedin"></i></li>
 							<li class="list-inline-item"><i class="bi bi-instagram"></i></li>
-							<li class="list-inline-item"><i class="bi bi-twitter"></i></i></li>
+							<li class="list-inline-item"><i class="bi bi-twitter"></i></li>
 						</ul>
 					</div>
 				</div>
